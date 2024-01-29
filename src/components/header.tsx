@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import { ThemeSwitcher } from "./theme-switcher";
+import  ThemeSwitcher  from "./theme-switcher";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 import useScroll from "src/hooks/use-scroll";

@@ -6,7 +6,7 @@ import HeaderMobile from "src/components/header-mobile";
 import SideNav from "src/components/side-nav";
 import PageWrapper from "src/components/page-wrapper";
 import MarginWidthWrapper from "src/components/margin-width-wrapper";
-import { ThemeProvider } from "../components/theme-provider"
+import { Providers } from "../components/providers"
 const poppins = Poppins ({  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], style: "normal", subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,12 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={` ${poppins.className}`}>
-        <ThemeProvider
-              attribute="class"
-              defaultTheme="system"
-              enableSystem
-              disableTransitionOnChange
-            >
+        <Providers>
           <div className="flex">
             <SideNav />
             <main className="flex-1">
@@ -38,7 +33,7 @@ export default function RootLayout({
               </MarginWidthWrapper>   
             </main>
           </div>
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
   );
