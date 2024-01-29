@@ -55,7 +55,7 @@ const HeaderMobile = () => {
         variants={sidebar}
         ></motion.div>
         <motion.ul
-        className="absolute grid w-full gap-3 px-10 py-16 text-black dark:text-white max-h-screen overflow-y-auto"
+        className="absolute grid w-full gap-3 px-10 py-16 text-zinc-800 dark:text-white max-h-screen overflow-y-auto"
         variants={variants}
         >
             {SIDENAV_ITEMS.map((item,idx) => {
