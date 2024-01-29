@@ -3,7 +3,6 @@
 
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import { Icon } from "@iconify/react";
 export function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -15,11 +14,11 @@ export function ThemeSwitcher() {
   if (!mounted) return null;
 
   if (theme==='dark'){
-      return <Icon icon="lucide:moon" className="cursor-pointer text-zinc-400 hover:text-zinc-100" width="20" height="20" onClick={() => setTheme("light")}/>
+      return <a href="#" onClick={() => setTheme("light")} className="cursor-pointer text-zinc-200 hover:text-zinc-100">a</a>
   }
 
   if(theme==='light'){
-    return <Icon  icon="lucide:sun" className="cursor-pointer text-zinc-800 hover:text-zinc-900" width="20" height="20" onClick={() => setTheme("dark")}/>
+    return <a href="#" onClick={() => setTheme("dark")} className="cursor-pointer text-zinc-800 hover:text-zinc-900">b</a>
   }
   
 }
