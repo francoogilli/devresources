@@ -11,14 +11,14 @@ import { Icon } from '@iconify/react';
 
 const SideNav = () => {
     return (
-        <div className="md:w-60 bg-white h-screen flex-1 fixed border-r border-zinc-200 hidden md:flex">
+        <div className="md:w-60 bg-white dark:bg-zinc-900 h-screen flex-1 fixed border-r border-zinc-200 dark:border-zinc-800 hidden md:flex">
       <div className="flex flex-col space-y-6 w-full">
         <Link
           href="/"
-          className="flex flex-row space-x-3 items-center justify-center md:justify-start md:px-6 border-b border-zinc-200 h-12 w-full"
+          className="flex flex-row space-x-3 items-center justify-center md:justify-start md:px-6 border-b border-zinc-200 dark:border-zinc-800 h-12 w-full"
         >
-          <span className="h-7 w-7 bg-zinc-300 rounded-lg" />
-          <span className="font-bold text-xl hidden md:flex">Dev Resources</span>
+          <span className="h-7 w-7 bg-zinc-400 dark:bg-zinc-700 rounded-lg" />
+          <span className="font-bold dark:text-zinc-300 text-xl hidden md:flex">Dev Resources</span>
         </Link>
 
         <div className="flex flex-col space-y-2  md:px-6 ">
@@ -45,22 +45,22 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
           <>
             <button
               onClick={toggleSubMenu}
-              className={`flex flex-row items-center p-2 rounded-lg hover-bg-zinc-100 w-full justify-between hover:bg-zinc-100 ${
-                pathname.includes(item.path) ? 'bg-zinc-100' : ''
+              className={`flex flex-row items-center p-2 rounded-xl w-full justify-between hover:bg-zinc-100 dark:hover:bg-zinc-800 ${
+                pathname.includes(item.path) ? 'bg-zinc-100 dark:bg-zinc-800' : ''
               }`}
             >
-              <div className="flex flex-row space-x-4 items-center text-black">
+              <div className="flex flex-row space-x-4 items-center text-black dark:text-white">
                 {item.icon}
                 <span className="font-semibold text-xl  flex">{item.title}</span>
               </div>
   
-              <div className={`${subMenuOpen ? 'rotate-180' : ''} flex text-black`}>
+              <div className={`${subMenuOpen ? 'rotate-180' : ''} flex text-black dark:text-white`}>
                 <Icon icon="lucide:chevron-down" width="24" height="24" />
               </div>
             </button>
   
             {subMenuOpen && (
-              <div className="my-2 ml-12 flex flex-col text-black space-y-4">
+              <div className="my-2 ml-12 flex flex-col text-black dark:text-white space-y-4">
                 {item.subMenuItems?.map((subItem, idx) => {
                   return (
                     <Link
@@ -80,8 +80,8 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
         ) : (
           <Link
             href={item.path}
-            className={`flex flex-row space-x-4 items-center p-2 rounded-lg text-black hover:bg-zinc-100 ${
-              item.path === pathname ? 'bg-zinc-100' : ''
+            className={`flex flex-row space-x-4 items-center p-2 rounded-xl text-black dark:text-white hover:bg-zinc-100 dark:hover:bg-zinc-800 ${
+              item.path === pathname ? 'bg-zinc-100 dark:bg-zinc-800' : ''
             }`}
           >
             {item.icon}

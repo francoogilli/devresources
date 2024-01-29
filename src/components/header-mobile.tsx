@@ -51,11 +51,11 @@ const HeaderMobile = () => {
       ref={containerRef}
     >
         <motion.div
-        className="absolute inset-0 w-full bg-white"
+        className="absolute inset-0 w-full bg-white dark:bg-zinc-900"
         variants={sidebar}
         ></motion.div>
         <motion.ul
-        className="absolute grid w-full gap-3 px-10 py-16 text-black max-h-screen overflow-y-auto"
+        className="absolute grid w-full gap-3 px-10 py-16 text-black dark:text-white max-h-screen overflow-y-auto"
         variants={variants}
         >
             {SIDENAV_ITEMS.map((item,idx) => {
@@ -79,7 +79,7 @@ const HeaderMobile = () => {
                 )}
   
                 {!isLastItem && (
-                  <MenuItem className="my-3 h-px w-full bg-gray-300" />
+                  <MenuItem className="my-3 h-px w-full bg-gray-300 dark:bg-zinc-800" />
                 )}
               </div>
             })}
@@ -115,6 +115,7 @@ const useDimensions = (ref: any) => {
             closed: { d: 'M 2 2.5 L 20 2.5' },
             open: { d: 'M 3 16.5 L 17 2.5' },
           }}
+          className="stroke-zinc-800 dark:stroke-zinc-400"
         />
         <Path
           d="M 2 9.423 L 20 9.423"
@@ -123,12 +124,14 @@ const useDimensions = (ref: any) => {
             open: { opacity: 0 },
           }}
           transition={{ duration: 0.1 }}
+          className="stroke-zinc-800 dark:stroke-zinc-400"
         />
         <Path
           variants={{
             closed: { d: 'M 2 16.346 L 20 16.346' },
             open: { d: 'M 3 2.5 L 17 16.346' },
           }}
+          className="stroke-zinc-800 dark:stroke-zinc-400"
         />
       </svg>
     </button>
