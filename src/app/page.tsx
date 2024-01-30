@@ -6,20 +6,32 @@ export default function Home() {
         <div className="shrink-0 bg-border w-[1px] mx-2 h-4"></div>    
         <span>Nuevos recursos, actualizados y más.</span>
       </span>
-      <h1 className="font-bold text-4xl text-center md:text-6xl mb-5  text-black dark:text-white">Libreria de recursos</h1>
+      <h1 className="font-bold  text-4xl text-center md:text-6xl mb-5  text-black dark:text-white">
+      ¡Libreria de recursos para 
+      <span className="tracking-tight inline from-[#FF1CF7] to-[#b249f8] bg-clip-text text-transparent bg-gradient-to-b"> devs</span>
+      !</h1>
+      
       <div className="font-normal text-center w-full max-w-6xl px-4 py-0 rounded-lg bg-white dark:bg-neutral-950 shadow-md mx-auto">
         <div className="max-w-2xl mx-auto pb-5">
-          <span className="text-lg sm:text-xl mb-6 font-normal text-black dark:text-gray-400">Recursos cuidadosamente seleccionados para potenciar tus proyectos. Accesibles. Versatiles. De código abierto.</span>
+          <span className="text-lg sm:text-xl mb-6 font-normal text-black dark:text-gray-400">
+            Recursos cuidadosamente seleccionados para potenciar tus proyectos. Accesibles. Versatiles. De código abierto.
+          </span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 font-medium">
-          <div className="flex items-center justify-center p-4 bg-blue-100 dark:bg-blue-700/50 rounded-2xl">
-            <p className="text-lg sm:text-xl text-black dark:text-white">🔍 ¿Necesitas iconos para tu proyecto?</p>
+          <div className="flex items-center justify-center p-4 bg-black/5 dark:bg-white/5 rounded-2xl md:rounded-3xl">
+            <p className="text-lg sm:text-xl text-black dark:text-white">
+              🔍 ¿Necesitas iconos para tu proyecto?
+            </p>
           </div>
-          <div className="flex items-center justify-center p-4 bg-green-100 dark:bg-green-700/50 rounded-2xl">
-            <p className="text-lg sm:text-xl text-black dark:text-white">🚀 ¿No sabes dónde deployar tu base de datos?</p>
+          <div className="flex items-center justify-center p-4 bg-black/5 dark:bg-white/5 rounded-2xl md:rounded-3xl">
+            <p className="text-lg sm:text-xl text-black dark:text-white">
+              🚀 ¿No sabes dónde deployar tu base de datos?
+            </p>
           </div>
-          <div className="flex items-center justify-center p-4 bg-yellow-100 dark:bg-yellow-700/50 rounded-2xl">
-            <p className="text-lg sm:text-xl text-black dark:text-white">⚙️ ¿Te preguntas cómo configurar esa extensión o herramienta en tu IDE?</p>
+          <div className="flex items-center justify-center p-4 bg-black/5 dark:bg-white/5 rounded-2xl md:rounded-3xl">
+            <p className="text-lg sm:text-xl text-black dark:text-white">
+              ⚙️ ¿Te preguntas cómo configurar esa extensión o herramienta en tu IDE?
+            </p>
           </div>
         </div>
         <div className="mt-8">
