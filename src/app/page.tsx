@@ -6,7 +6,7 @@ export default function Home() {
         <div className="shrink-0 bg-border w-[1px] mx-2 h-4"></div>    
         <span>Nuevos recursos, actualizados y más.</span>
       </span>
-      <h1 className="font-bold text-4xl md:text-6xl mb-5  text-black dark:text-white">Libreria de recursos</h1>
+      <h1 className="font-bold text-4xl text-center md:text-6xl mb-5  text-black dark:text-white">Libreria de recursos</h1>
       <div className="font-normal text-center w-full max-w-6xl px-4 py-0 rounded-lg bg-white dark:bg-neutral-950 shadow-md mx-auto">
         <div className="max-w-2xl mx-auto pb-5">
           <span className="text-lg sm:text-xl mb-6 font-normal text-black dark:text-gray-400">Recursos cuidadosamente seleccionados para potenciar tus proyectos. Accesibles. Versatiles. De código abierto.</span>
