@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-
 import { SIDENAV_ITEMS } from '../constants';
 import { SideNavItem } from '../types';
 import { Icon } from '@iconify/react';
@@ -17,7 +16,9 @@ const SideNav = () => {
           href="/"
           className="flex flex-row space-x-3 items-center justify-center md:justify-start md:px-6 border-b border-zinc-200 dark:border-zinc-800 h-12 w-full"
         >
-          <span className="h-7 w-7 bg-zinc-400 dark:bg-zinc-700 rounded-lg" />
+          <span className="h-7 w-7 bg-zinc-400 dark:bg-zinc-700 rounded-lg" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" className="rounded-lg" fill="none" viewBox="0 0 300 300"><path fill="#1E1E1E" d="M0 0h300v300H0z"/><path fill="#000" d="M0 0h300v300H0z"/><path fill="#fff" d="M0 75h150v35H0z"/><rect width="149.937" height="35.9929" x="132.015" y="225.009" fill="#fff" rx="17.5" transform="rotate(-90.006 132.015 225.009)"/><path fill="#fff" d="M149 188h151v37H149z"/></svg>
+          </span>
           <span className="font-bold text-zinc-800 dark:text-zinc-300 text-xl hidden md:flex">Resources Dev</span>
         </Link>
 
