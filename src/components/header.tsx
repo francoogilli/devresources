@@ -30,7 +30,7 @@ const Header = () => {
         </div>
         <div className="flex items-center space-x-4 mr-10 sm:mr-0">
           <a href="https://github.com/francoogilli/devresources" target="_blank" rel="noopener noreferrer">
-            <Icon icon="lucide:github" className="cursor-pointer text-zinc-800 dark:text-zinc-400 hover:text-neutral-900 dark:hover:text-zinc-100" width="20" height="20" />
+            <Icon icon="lucide:github" className="cursor-pointer text-zinc-800 dark:text-zinc-300 hover:text-neutral-900 dark:hover:text-zinc-100" width="20" height="20" />
           </a>
           <ThemeSwitcher />
         </div>

@@ -12,7 +12,7 @@ export default function ThemeSwitcher() {
   if (!mounted) return null;
 
   if (resolvedTheme === 'dark') {
-    return <Icon icon="lucide:moon" className="cursor-pointer text-zinc-400 hover:text-zinc-100" width="20" height="20" onClick={() => setTheme('light')} />
+    return <Icon icon="lucide:moon" className="cursor-pointer text-zinc-300 hover:text-zinc-100" width="20" height="20" onClick={() => setTheme('light')} />
   }
 
   if (resolvedTheme === 'light') {

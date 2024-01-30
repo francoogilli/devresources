@@ -115,7 +115,7 @@ const useDimensions = (ref: any) => {
             closed: { d: 'M 2 2.5 L 20 2.5' },
             open: { d: 'M 3 16.5 L 17 2.5' },
           }}
-          className="stroke-zinc-800 dark:stroke-zinc-400"
+          className="stroke-zinc-800 dark:stroke-zinc-300"
         />
         <Path
           d="M 2 9.423 L 20 9.423"
@@ -124,14 +124,14 @@ const useDimensions = (ref: any) => {
             open: { opacity: 0 },
           }}
           transition={{ duration: 0.1 }}
-          className="stroke-zinc-800 dark:stroke-zinc-400"
+          className="stroke-zinc-800 dark:stroke-zinc-300"
         />
         <Path
           variants={{
             closed: { d: 'M 2 16.346 L 20 16.346' },
             open: { d: 'M 3 2.5 L 17 16.346' },
           }}
-          className="stroke-zinc-800 dark:stroke-zinc-400"
+          className="stroke-zinc-800 dark:stroke-zinc-300"
         />
       </svg>
     </button>
