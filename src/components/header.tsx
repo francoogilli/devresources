@@ -14,10 +14,10 @@ const Header = () => {
     return (
         <div
       className={cn(
-        `sticky inset-x-0 top-0 z-30 w-full transition-all border-b border-gray-200 dark:border-zinc-800 bg-white/75 dark:bg-neutral-900 backdrop-blur-lg`,
+        `sticky inset-x-0 top-0 z-30 w-full transition-all border-b border-gray-200 dark:border-zinc-800 bg-white/75 dark:bg-neutral-950 backdrop-blur-lg`,
         {
-          'border-b border-gray-200 dark:border-zinc-800 bg-white/75 dark:bg-neutral-900 backdrop-blur-lg': scrolled,
-          'border-b border-gray-200 dark:border-zinc-800 bg-white dark:bg-neutral-900': selectedLayout,
+          'border-b border-gray-200 dark:border-zinc-800 bg-white/75 dark:bg-neutral-950 backdrop-blur-lg': scrolled,
+          'border-b border-gray-200 dark:border-zinc-800 bg-white dark:bg-neutral-950': selectedLayout,
         },
       )}
     >

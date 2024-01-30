@@ -51,7 +51,7 @@ const HeaderMobile = () => {
       ref={containerRef}
     >
         <motion.div
-        className="absolute inset-0 w-full bg-white dark:bg-zinc-900"
+        className="absolute inset-0 w-full bg-white dark:bg-neutral-950"
         variants={sidebar}
         ></motion.div>
         <motion.ul
