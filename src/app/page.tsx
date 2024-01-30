@@ -24,8 +24,8 @@ export default function Home() {
         </div>
         <div className="mt-8">
           <p className="text-lg sm:text-xl mb-4 text-black dark:text-white">📌 ¿Crees que debería haber un recurso aquí y no lo encuentras? ¡Haz un pull request y añádela vos mismo!</p>
-          <p className="text-lg sm:text-xl mb-4 text-black dark:text-white">😨 Si no te sientes seguro, no hay problema. ¡Simplemente abre un issue con la opción "Agregar nuevo recurso" y nosotros lo agregaremos por vos!</p>
-          <p className="text-lg sm:text-xl text-black dark:text-white">🤔 ¿Te gustaría tener videos tutoriales para algunas herramientas? ¡Genial! Abre un issue con la opción "Agregar nuevo video para recurso" y haremos todo lo posible para proporcionarlo.</p>
+          <p className="text-lg sm:text-xl mb-4 text-black dark:text-white">😨 Si no te sientes seguro, no hay problema. ¡Simplemente abre un issue con la opción &quot;Agregar nuevo recurso&quot; y nosotros lo agregaremos por vos!</p>
+          <p className="text-lg sm:text-xl text-black dark:text-white">🤔 ¿Te gustaría tener videos tutoriales para algunas herramientas? ¡Genial! Abre un issue con la opción &quot;Agregar nuevo video para recurso&quot; y haremos todo lo posible para proporcionarlo.</p>
         </div>
       </div>
     </div>
