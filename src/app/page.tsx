@@ -1,23 +1,23 @@
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center pt-10 md:pt-16 bg-white dark:bg-neutral-950">
-      <span className="inline-flex items-center rounded-lg bg-gray-100 dark:bg-zinc-800 mb-3 px-3 py-1 text-sm font-semibold">
+      <span className="inline-flex items-center rounded-lg bg-gray-100 dark:bg-zinc-800 mb-4 md:mb-3 px-3 py-1 text-sm font-semibold">
         🎉
         <div className="shrink-0 bg-border w-[1px] mx-2 h-4"></div>    
         <span>Nuevos recursos, actualizados y más.</span>
       </span>
-      <h1 className="font-bold  text-4xl text-center md:text-6xl mb-5  text-black dark:text-white">
+      <h1 className="font-bold text-4xl text-center md:text-6xl mb-5  text-black dark:text-white">
       ¡Libreria de recursos para 
       <span className="tracking-tight inline from-[#FF1CF7] to-[#b249f8] bg-clip-text text-transparent bg-gradient-to-b"> devs</span>
       !</h1>
       
-      <div className="font-normal text-center w-full max-w-6xl px-4 py-0 rounded-lg bg-white dark:bg-neutral-950 shadow-md mx-auto">
+      <div className="font-normal text-center w-full max-w-6xl px-4 py-0 rounded-lg bg-white dark:bg-neutral-950 mx-auto">
         <div className="max-w-2xl mx-auto pb-5">
           <span className="text-lg sm:text-xl mb-6 font-normal text-black dark:text-gray-400">
             Recursos cuidadosamente seleccionados para potenciar tus proyectos. Accesibles. Versatiles. De código abierto.
           </span>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 font-medium">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 font-medium mb-10">
           <div className="flex items-center justify-center p-4 bg-black/5 dark:bg-white/5 rounded-2xl md:rounded-3xl">
             <p className="text-lg sm:text-xl text-black dark:text-white">
               🔍 ¿Necesitas iconos para tu proyecto?
@@ -34,10 +34,13 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="mt-8">
-          <p className="text-lg sm:text-xl mb-4 text-black dark:text-white">📌 ¿Crees que debería haber un recurso aquí y no lo encuentras? ¡Haz un pull request y añádela vos mismo!</p>
-          <p className="text-lg sm:text-xl mb-4 text-black dark:text-white">😨 Si no te sientes seguro, no hay problema. ¡Simplemente abre un issue con la opción &quot;Agregar nuevo recurso&quot; y nosotros lo agregaremos por vos!</p>
-          <p className="text-lg sm:text-xl text-black dark:text-white">🤔 ¿Te gustaría tener videos tutoriales para algunas herramientas? ¡Genial! Abre un issue con la opción &quot;Agregar nuevo video para recurso&quot; y haremos todo lo posible para proporcionarlo.</p>
+        <span className="tracking-tight inline font-bold text-4xl md:text-5xl from-[#e9ef5e] to-[#ebf500] bg-clip-text text-transparent bg-gradient-to-b">
+          !important
+        </span>
+        <div className="mt-4 rounded-3xl ">
+          <p className="text-base sm:text-lg mb-4 text-black dark:text-gray-300">📌 ¿Crees que debería haber un recurso aquí y no lo encuentras? ¡Haz un pull request y añádela vos mismo!</p>
+          <p className="text-base sm:text-lg mb-4 text-black dark:text-gray-300">😨 Si no te sientes seguro, no hay problema. ¡Simplemente abre un issue con la opción &quot;Agregar nuevo recurso&quot; y nosotros lo agregaremos por vos!</p>
+          <p className="text-base sm:text-lg text-black dark:text-gray-300">🤔 ¿Te gustaría tener videos tutoriales para algunas herramientas? ¡Genial! Abre un issue con la opción &quot;Agregar nuevo video para recurso&quot; y haremos todo lo posible para proporcionarlo.</p>
         </div>
       </div>
     </div>
