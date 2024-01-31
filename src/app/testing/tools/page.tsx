@@ -4,7 +4,7 @@ import { tools } from "src/data/testing/tools";
 const ToolsPage = ()=>{
     return (
         <>
-            <SectionPage title={tools.title} category={tools.category} subtitle={tools.subtitle}/>
+            <SectionPage title={tools.title} category={tools.category} subtitle={tools.subtitle} color1={tools.color1} color2={tools.color2}/>
         </>
     )
 }

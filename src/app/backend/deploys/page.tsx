@@ -4,7 +4,7 @@ import { deploys } from "src/data/backend/deploys";
 const DeploysBackendPage = ()=>{
     return (
         <>
-            <SectionPage title={deploys.title} category={deploys.category} subtitle={deploys.subtitle} />
+            <SectionPage title={deploys.title} category={deploys.category} subtitle={deploys.subtitle} color1={deploys.color1} color2={deploys.color2} />
         </>
     )
 }
