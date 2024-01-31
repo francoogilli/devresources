@@ -1,6 +1,13 @@
 "use client"
+// section-page.tsx
 import React from "react";
 import { Icon } from '@iconify/react';
+import Card from "./card";
+
+interface Resource {
+  title: string;
+  link: string;
+}
 
 interface SectionProps {
   category?: string;
@@ -8,9 +15,10 @@ interface SectionProps {
   subtitle?: string;
   color1?: string;
   color2?: string;
+  resources?: Resource[];
 }
 
-const SectionPage: React.FC<SectionProps> = ({ category, title, subtitle, color1, color2 }) => {
+const SectionPage: React.FC<SectionProps> = ({ category, title, subtitle, color1, color2, resources }) => {
   const gradientStyle = {
     backgroundImage: `linear-gradient(to bottom, ${color1}, ${color2})`,
     WebkitBackgroundClip: 'text',
@@ -25,10 +33,13 @@ const SectionPage: React.FC<SectionProps> = ({ category, title, subtitle, color1
         {title}
       </h1>
       <span className="text-lg md:text-lg text-gray-400">{subtitle}</span>
-      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
+      <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+        {resources && resources.map((resource, index) => (
+          <Card key={index} title={resource.title} link={resource.link} iconDark={resource.iconDark} iconLight={resource.iconLight}/>
+        ))}
+      </div>
     </div>
   );
 };
 
 export default SectionPage;
-
