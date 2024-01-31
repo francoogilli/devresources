@@ -11,7 +11,7 @@ export default function Home() {
 
       <h1 className="font-bold text-4xl text-center md:text-6xl mb-5 text-black dark:text-white">
         ¡Biblioteca de recursos para 
-        <span className="tracking-tight inline from-[#FF1CF7] to-[#b249f8] bg-clip-text text-transparent bg-gradient-to-b"> devs</span>
+        <span className="tracking-tight inline from-[#FF1CF7] to-[#b249f8] bg-clip-text text-transparent bg-gradient-to-b"> desarrolladores</span>
         !
       </h1>
       
