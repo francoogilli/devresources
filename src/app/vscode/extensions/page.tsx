@@ -1,9 +1,10 @@
 import React from "react";
 import SectionPage from "src/components/section-page";
+import { extensions } from "src/data/vscode/extensions";
 const ExtensionsPage = ()=>{
     return (
         <>
-            <SectionPage title="Extensiones" category="Visual Studio Code" />
+            <SectionPage title={extensions.title} category={extensions.category} subtitle={extensions.subtitle} />
         </>
     )
 }
