@@ -39,7 +39,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <span className="flex items-center justify-center gap-x-3 tracking-tight font-bold text-3xl md:text-4xl from-[#1b1b1b] to-[#000000] dark:from-[#ffffff] dark:to-[#b3b4b0] bg-clip-text text-transparent bg-gradient-to-b">
+        <span className="flex items-center justify-center gap-x-2.5 tracking-tight font-bold text-3xl md:text-4xl from-[#1b1b1b] to-[#000000] dark:from-[#ffffff] dark:to-[#b3b4b0] bg-clip-text text-transparent bg-gradient-to-b">
           <Icon icon="mdi:warning-circle" className='text-blue-500 dark:text-blue-500 rotate-180'  />README
         </span>
     <div className="mt-4 rounded-3xl max-w-5xl mx-auto bg-gray-100 dark:bg-neutral-900 p-6">
