@@ -41,7 +41,7 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
   {
     title: 'VS Code',
     path: '/vscode',
-    icon: <Icon icon="lucide:code" width="24" height="24" />,
+    icon: <Icon icon="mdi:microsoft-visual-studio-code" width="24" height="24" />,
     submenu: true,
     subMenuItems: [
       { title: 'Extensiones', path: '/vscode/extensions' },
