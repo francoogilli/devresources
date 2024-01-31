@@ -7,6 +7,8 @@ import Card from "./card";
 interface Resource {
   title: string;
   link: string;
+  iconDark: string;
+  iconLight: string;
 }
 
 interface SectionProps {
