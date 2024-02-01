@@ -47,4 +47,15 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
       { title: 'Extensiones', path: '/vscode/extensions' },
     ],
   },
+  {
+    title:'Cursos',
+    path: '/course',
+    icon: <Icon icon="maki:library" width="24" height="24" />,
+    submenu: true,
+    subMenuItems: [
+      { title: 'React', path: '/course/react' },
+      { title: 'Next', path: '/course/next' },
+
+    ]
+  }
 ];
