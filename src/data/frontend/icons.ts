@@ -8,8 +8,8 @@ export const icons = {
         {
             title:'Svgl',
             link:'https://svgl.app/',
-            iconDark: '/icons/svgl.svg',
-            iconLight: '/icons/svgl.svg'
+            iconDark: '/icons/Svgl.svg',
+            iconLight: '/icons/Svgl.svg'
         },
         {
             title:'Tabler Icons',
