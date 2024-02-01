@@ -12,6 +12,18 @@ const poppins = Poppins ({  weight: ["100", "200", "300", "400", "500", "600", "
 export const metadata: Metadata = {
   title: "Resources Dev",
   description: "A collection of resources for developers",
+  icons: {
+    icon: [
+      {
+        url: '/icon_light.svg',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/icon_dark.svg',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

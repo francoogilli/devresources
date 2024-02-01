@@ -18,7 +18,8 @@ const SideNav = () => {
           className="flex flex-row space-x-3 items-center justify-center md:justify-start md:px-6 border-b border-zinc-200 dark:border-zinc-800 h-12 w-full"
         >
           <span className="flex justify-center  h-7 w-7 bg-zinc-100 dark:bg-black rounded-lg" >
-          <Image src="/logo.svg" alt="Resources Dev" width={25} height={25} />
+          <Image src="/icon_dark.svg" className="hidden dark:block" alt="Resources Dev" width={25} height={25} />
+          <Image src="/icon_light.svg" className="block dark:hidden" alt="Resources Dev" width={25} height={25} />
           </span>
           <span className="font-bold text-zinc-800 dark:text-zinc-300 text-xl hidden md:flex">Resources Dev</span>
         </Link>
