@@ -7,6 +7,7 @@ import { useSelectedLayoutSegment } from "next/navigation";
 import useScroll from "src/hooks/use-scroll";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { cn } from "src/lib/utils";
+import Image from "next/image";
 const Header = () => {
     
     const scrolled = useScroll(5);
@@ -24,8 +25,8 @@ const Header = () => {
       <div className="flex h-[47px] items-center justify-between px-4">
         <div className="flex items-center space-x-4">
           <Link href="/" className="flex flex-row space-x-3 items-center justify-center md:hidden">
-            <span className="h-7 w-7 bg-zinc-300 dark:bg-zinc-700 rounded-lg" >
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" className="rounded-lg" fill="none" viewBox="0 0 300 300"><path fill="#1E1E1E" d="M0 0h300v300H0z"/><path fill="#000" d="M0 0h300v300H0z"/><path fill="#fff" d="M0 75h150v35H0z"/><rect width="149.937" height="35.9929" x="132.015" y="225.009" fill="#fff" rx="17.5" transform="rotate(-90.006 132.015 225.009)"/><path fill="#fff" d="M149 188h151v37H149z"/></svg>
+            <span className=" flex justify-center h-7 w-7 bg-zinc-100 dark:bg-black rounded-lg" >
+            <Image src="/logo.svg" alt="Resources Dev" width={25} height={25} />
             </span>
             <span className="font-bold text-xl flex text-zinc-800 dark:text-zinc-300 ">Resources Dev</span>
           </Link>
