@@ -46,7 +46,7 @@ export default function Home() {
           </div>
 
           <div className="bg-transparent p-4">
-            <Card title="Svgl" link="https://svgl.dev" iconDark="/icons/svgl.svg" iconLight="/icons/svgl.svg" />
+            <Card title="Svgl" link="https://svgl.dev" iconDark="/icons/Svgl.svg" iconLight="/icons/Svgl.svg" />
           </div>
           <div className="bg-transparent p-4">
             <Card title="Adobe Color" link="https://color.adobe.com/es" iconDark="/icons/Adobecolor_dark.svg" iconLight="/icons/Adobecolor_light.svg" />
