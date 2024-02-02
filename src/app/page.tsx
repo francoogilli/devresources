@@ -46,7 +46,7 @@ export default function Home() {
           </div>
 
           <div className="bg-transparent p-4" style={{ animation: "levitate 17s ease infinite" }}>
-            <Card title="Svgl" link="https://svgl.dev" iconDark="/icons/Svgl.svg" iconLight="/icons/Svgl.svg" />
+            <Card title="Svgl" link="https://svgl.vercel.app/" iconDark="/icons/Svgl.svg" iconLight="/icons/Svgl.svg" />
           </div>
           <div className="bg-transparent p-4" style={{ animation: "levitate 12s ease infinite" }}>
             <Card title="Adobe Color" link="https://color.adobe.com/es" iconDark="/icons/Adobecolor_dark.svg" iconLight="/icons/Adobecolor_light.svg" />
