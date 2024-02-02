@@ -72,12 +72,12 @@ export default function Home() {
           </div>
           <div className="flex items-center justify-center p-4 bg-black/5 dark:bg-white/5 rounded-2xl md:rounded-3xl">
             <p className="flex md:flex-col items-center gap-x-3 sm:gap-x-0 text-base md:gap-y-2 sm:text-xl text-black dark:text-white">
-              <Icon icon="ic:round-rocket-launch" className='size-6 ' /> Donde deployar tu base de datos
+              <Icon icon="ic:round-rocket-launch" className='size-6 ' /> Donde subir tu base de datos
             </p>
           </div>
           <div className="flex items-center justify-center p-4 bg-black/5 dark:bg-white/5 rounded-2xl md:rounded-3xl">
             <p className="flex md:flex-col items-center gap-x-3 sm:gap-x-0 md:gap-y-2 text-base sm:text-xl text-black dark:text-white">
-              <Icon icon="mdi:extension" className='size-6 ' /> Extensiones para utilizar en tu IDE
+              <Icon icon="mdi:extension" className='size-6 ' /> Extensiones para usar en tu IDE
             </p>
           </div>
           <div className="flex items-center justify-center p-4 bg-black/5 dark:bg-white/5 rounded-2xl md:rounded-3xl">
