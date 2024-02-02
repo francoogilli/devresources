@@ -1,4 +1,4 @@
-export const extensions = {
+export const themes = {
   category: "Visual Studio Code",
   title: "Temas",
   subtitle: "Temas para tu VsCode.",

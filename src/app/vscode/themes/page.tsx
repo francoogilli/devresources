@@ -1,18 +1,18 @@
 import React from "react";
 import SectionPage from "src/components/section-page";
-import { extensions } from "src/data/vscode/themes";
-const ExtensionsPage = () => {
+import { themes } from "src/data/vscode/themes";
+const ThemesPage = () => {
   return (
     <>
       <SectionPage
-        title={extensions.title}
-        category={extensions.category}
-        subtitle={extensions.subtitle}
-        color1={extensions.color1}
-        color2={extensions.color2}
-        resources={extensions.resources}
+        title={themes.title}
+        category={themes.category}
+        subtitle={themes.subtitle}
+        color1={themes.color1}
+        color2={themes.color2}
+        resources={themes.resources}
       />
     </>
   );
 };
-export default ExtensionsPage;
+export default ThemesPage;
