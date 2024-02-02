@@ -42,7 +42,7 @@ export default function Home() {
             <Card title="Fly.io" link="https://fly.io" iconDark="/icons/fly.svg" iconLight="/icons/fly.svg" />
           </div>
           <div className="col-span-2 bg-transparent p-4">
-            <Card title="Coolors" link="https://coolors.co" iconDark="/icons/coolors.svg" iconLight="/icons/coolors.svg" />
+            <Card title="Github Copilot" link="https://coolors.co" iconDark="/icons/GithubCopilot_dark.svg" iconLight="/icons/GithubCopilot_light.svg" />
           </div>
 
           <div className="bg-transparent p-4">
