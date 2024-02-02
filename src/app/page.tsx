@@ -9,7 +9,8 @@ export default function Home() {
       <span className="inline-flex items-center rounded-lg bg-gray-100 dark:bg-zinc-800 mb-4 md:mb-3 px-3 py-1 text-sm font-semibold">
         🎉
         <div className="shrink-0 bg-border w-[1px] mx-2 h-4"></div>
-        <span>Nuevos recursos, actualizados y más.</span>
+        <span className='sm:hidden'>Nuevos recursos y más.</span>
+        <span className='hidden sm:inline'>Nuevos recursos, actualizados y más.</span>
       </span>
 
       <h1 className="font-bold text-4xl text-center md:text-6xl mb-5 text-black dark:text-white">
