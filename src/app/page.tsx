@@ -94,7 +94,7 @@ export default function Home() {
         </span>
         <div className="mt-4 rounded-3xl max-w-5xl mx-auto bg-gray-100 dark:bg-neutral-900 p-6">
           <div className='flex flex-col items-center pb-5'>
-            <Icon icon="simple-icons:github" className='mb-5 text-transparent dark:text-white' width={60} height={60} />
+            <Icon icon="simple-icons:github" className='mb-5 text-transparent text-zinc-950 dark:text-white' width={60} height={60} />
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 ">
               ¡Contribuye al proyecto de Resources Dev!
             </h2>
