@@ -29,29 +29,29 @@ export default function Home() {
 
         <div className="hidden lg:grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 pb-14">
           {/* Primera fila */}
-          <div className="bg-transparent p-4">
+          <div className="bg-transparent p-4" style={{ animation: "levitate 16s ease infinite" }}>
             <Card title="Vercel" link="https://vercel.com" iconDark="/icons/Vercel_dark.svg" iconLight="/icons/Vercel_light.svg" />
           </div>
-          <div className="bg-transparent p-4">
+          <div className="bg-transparent p-4" style={{ animation: "levitate 17s ease 1s infinite" }}>
             <Card title="Firebase" link="https://firebase.google.com" iconDark="/icons/firebase.svg" iconLight="/icons/firebase.svg" />
           </div>
-          <div className="bg-transparent p-4">
+          <div className="bg-transparent p-4" style={{ animation: "levitate 12s ease 1s infinite" }}>
             <Card title="Tabler Icons" link="https://tablericons.com" iconDark="/icons/tablerio.svg" iconLight="/icons/tablerio.svg" />
           </div>
-          <div className="col-span-2 bg-transparent p-4">
-            <Card title="Fly.io" link="https://fly.io" iconDark="/icons/fly.svg" iconLight="/icons/fly.svg" />
+          <div className="col-span-2 bg-transparent p-4" style={{ animation: "levitate 14s ease 1s infinite" }}>
+            <Card title="Fly.io" link="https://fly.io"  iconDark="/icons/fly.svg" iconLight="/icons/fly.svg" />
           </div>
-          <div className="col-span-2 bg-transparent p-4">
+          <div className="col-span-2 bg-transparent p-4" style={{ animation: "levitate 12s ease 1s infinite" }}>
             <Card title="Github Copilot" link="https://coolors.co" iconDark="/icons/GithubCopilot_dark.svg" iconLight="/icons/GithubCopilot_light.svg" />
           </div>
 
-          <div className="bg-transparent p-4">
+          <div className="bg-transparent p-4" style={{ animation: "levitate 17s ease infinite" }}>
             <Card title="Svgl" link="https://svgl.dev" iconDark="/icons/Svgl.svg" iconLight="/icons/Svgl.svg" />
           </div>
-          <div className="bg-transparent p-4">
+          <div className="bg-transparent p-4" style={{ animation: "levitate 12s ease infinite" }}>
             <Card title="Adobe Color" link="https://color.adobe.com/es" iconDark="/icons/Adobecolor_dark.svg" iconLight="/icons/Adobecolor_light.svg" />
           </div>
-          <div className="bg-transparent p-4">
+          <div className="bg-transparent p-4" style={{ animation: "levitate 16s ease infinite" }}>
             <Card title="NHost" link="https://nhost.io" iconDark="/icons/nhost.svg" iconLight="/icons/nhost.svg" />
           </div>
           
