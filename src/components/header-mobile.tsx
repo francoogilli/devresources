@@ -108,6 +108,7 @@ const useDimensions = (ref: any) => {
     <button
       onClick={toggle}
       className="pointer-events-auto absolute right-4 top-[14px] z-30"
+      aria-label="Open Menu"
     >
       <svg width="23" height="23" viewBox="0 0 23 23">
         <Path

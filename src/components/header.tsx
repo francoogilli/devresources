@@ -26,14 +26,14 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <Link href="/" className="flex flex-row space-x-3 items-center justify-center md:hidden">
             <span className=" flex justify-center h-7 w-7 bg-zinc-100 dark:bg-black rounded-lg" >
-            <Image src="/icon_dark.svg" className="hidden dark:block" alt="Resources Dev" width={25} height={25} />
-            <Image src="/icon_light.svg" className="block dark:hidden" alt="Resources Dev" width={25} height={25} />
+            <Image src="/icon_dark.svg" className="hidden dark:block" alt="Resources Dev logo" width={25} height={25} />
+            <Image src="/icon_light.svg" className="block dark:hidden" alt="Resources Dev logo" width={25} height={25} />
             </span>
             <span className="font-bold text-xl flex text-zinc-800 dark:text-zinc-300 ">Resources Dev</span>
           </Link>
         </div>
         <div className="flex items-center space-x-4 mr-10 sm:mr-0">
-          <a href="https://github.com/francoogilli/devresources" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/francoogilli/devresources" target="_blank" rel="noopener noreferrer" aria-label="Link to Franco Gilli development resources on GitHub">
             <Icon icon="simple-icons:github" className="cursor-pointer text-zinc-800 dark:text-zinc-300 hover:text-neutral-900 dark:hover:text-zinc-100" width="20" height="20" />
           </a>
           <ThemeSwitcher />
