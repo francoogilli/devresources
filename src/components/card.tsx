@@ -20,7 +20,7 @@ const Card: React.FC<CardProps> = ({ title, link, iconDark, iconLight, style }) 
         <div className="flex flex-col space-y-1 items-center justify-center">
           <p className="truncate text-[19px] font-semibold text-balance text-center select-all">{title}</p>
           <button className="flex items-center space-x-2 rounded-md p-2 duration-100 hover:bg-neutral-200 dark:hover:bg-neutral-700/40" aria-label={'Link to ' + title + ' website'}>
-            <a href={link} target="_blank" rel="noopener noreferrer">
+            <a href={link} target="_blank" rel="noopener noreferrer" aria-label={'Link to ' + title + ' website'}>
               <Icon icon="lucide:link" width="20" height="20" />
             </a>
           </button>
