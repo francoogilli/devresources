@@ -60,8 +60,8 @@ export default function Home() {
         </div>
 
         <div className='lg:hidden flex justify-center border border-zinc-300 dark:border-zinc-800 rounded-3xl mb-14'>
-          <Image src="/dark.png" className='hidden dark:block rounded-3xl' alt="Next.js" width={1000} height={1000} />
-          <Image src="/light.png" className='block dark:hidden rounded-3xl' alt="Next.js" width={1000} height={1000} />
+          <Image src="/dark.webp" className='hidden dark:block rounded-3xl' alt="Next.js" width={1000} height={1000} />
+          <Image src="/light.webp" className='block dark:hidden rounded-3xl' alt="Next.js" width={1000} height={1000} />
         </div>
 
 
