@@ -95,7 +95,11 @@ export default function Home() {
         </span>
         <div className="mt-4 rounded-3xl max-w-5xl mx-auto bg-gray-100 dark:bg-neutral-900 p-6">
           <div className='flex flex-col items-center pb-5'>
-            <Icon icon="simple-icons:github" className='mb-5 text-transparent text-zinc-950 dark:text-white' width={60} height={60} />
+          <div className='relative inline-block'>
+            <Icon icon="simple-icons:github" className='mb-5 text-transparent size-[60px] text-zinc-950 dark:text-white' width={60} height={60} />
+            <Icon icon="radix-icons:star-filled" className="absolute bottom-[3.65rem] left-9 mt-2 mr-2 text-yellow-400 dark:text-yellow-400 animate-bounce transition-all" width="30" height="30" />
+          </div>
+
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 ">
               ¡Contribuye al proyecto de Resources Dev!
             </h2>
