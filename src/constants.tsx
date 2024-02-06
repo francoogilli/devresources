@@ -17,6 +17,7 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
       { title: 'Colores', path: '/frontend/colors' },
       { title: 'Deploys', path: '/frontend/deploys' },
       { title: 'Iconos', path: '/frontend/iconos' },
+      { title: 'Generadores', path: '/frontend/generators' }
     ],
   },
   {
