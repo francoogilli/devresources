@@ -121,7 +121,7 @@ export default function Home() {
         </div>
       </div>
       <div className="text-center text-sm sm:text-base mt-4 text-gray-600 dark:text-zinc-300 pt-20 ">
-        Esta pagina es un rediseño de <a href="https://recursostech.vercel.app/" target="_blank" className='text-blue-500 font-semibold'>Recursos Tech</a>
+      Esta pagina esta inspirada en <a href="https://recursostech.vercel.app/" target="_blank" className='text-blue-500 font-semibold'>Recursos Tech</a>
       </div>
     </div>
   );
